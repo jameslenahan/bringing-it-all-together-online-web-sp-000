@@ -1,5 +1,5 @@
 class Dog
-  attr_reader :name, :breed, :id
+  attr_reader :id, :name, :breed
   
   def initialize(attributes)
     attributes.each {|key, value| self.send(("#{key}="), value)}
