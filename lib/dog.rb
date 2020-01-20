@@ -2,7 +2,7 @@ class Dog
   attr_reader :name, :breed, :id
   
   def initialize(attributes)
-    attributes.each do
+    attributes.each {|
   end
 end
 
